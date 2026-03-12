@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="[https://via.placeholder.com/800x200/000000/FFFFFF?text=AraraHQ+-+A+Sua+Infraestrutura+de+Mensageria](https://staging.ararahq.com/LogoPTemaEscuro.png)" alt="AraraHQ Banner" />
+  <img src="https://staging.ararahq.com/LogoPTemaEscuro.png" alt="AraraHQ Banner" />
 
-  <h1>Bem-vindo à AraraHQ 🐦</h1>
+  <h1>Bem-vindo à AraraHQ</h1>
   <p><strong>Todos os canais. Uma única API. O seu Centro de Comando Omnichannel.</strong></p>
 
   [![Website](https://img.shields.io/badge/Website-ararahq.com-blue?style=flat-square)](https://ararahq.com)
