@@ -5,8 +5,8 @@
   <p><strong>Todos os canais. Uma única API. O seu Centro de Comando Omnichannel.</strong></p>
 
   [![Website](https://img.shields.io/badge/Website-ararahq.com-blue?style=flat-square)](https://ararahq.com)
-  [![Documentação](https://img.shields.io/badge/API_Docs-Console-orange?style=flat-square)](https://ararahq.com/docs)
-  [![Twitter](https://img.shields.io/twitter/follow/ararahq?style=social)](https://twitter.com/ararahq)
+  [![Documentação](https://img.shields.io/badge/API_Docs-Console-orange?style=flat-square)](https://docs.ararahq.com/)
+  [![Twitter/X](https://img.shields.io/twitter/follow/ararahq?style=social)](https://x.com/ararahq)
 </div>
 
 ---
