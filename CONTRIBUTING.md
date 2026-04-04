@@ -14,15 +14,15 @@ Thanks for your interest in contributing! Here's how to get started.
 
 ## Commit Messages
 
-We use semantic commit messages with emojis:
+We use conventional commits. No emojis, no fluff.
 
 ```
-✨ feat(scope): add new feature
-🐛 fix(scope): fix the bug
-📦 refactor(scope): restructure code
-🧪 test(scope): add tests
-✏️ docs(scope): update documentation
-🚧 chore(scope): maintenance task
+feat(scope): add new feature
+fix(scope): fix the bug
+refactor(scope): restructure code
+test(scope): add tests
+docs(scope): update documentation
+chore(scope): maintenance task
 ```
 
 ## Code Style
