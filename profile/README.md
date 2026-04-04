@@ -1,39 +1,75 @@
-<div align="center">
-  <img src="https://staging.ararahq.com/LogoPTemaEscuro.png" alt="AraraHQ Banner" />
+<h1 align="center">
+  <br>
+  <img src="https://ararahq.com/logo-dark.png" alt="AraraHQ" width="200">
+  <br>
+  AraraHQ
+  <br>
+</h1>
 
-  <h1>Bem-vindo à AraraHQ</h1>
-  <p><strong>Todos os canais. Uma única API. O seu Centro de Comando Omnichannel.</strong></p>
+<h3 align="center">Communication infrastructure for Latin America</h3>
 
-  [![Website](https://img.shields.io/badge/Website-ararahq.com-blue?style=flat-square)](https://ararahq.com)
-  [![Documentação](https://img.shields.io/badge/API_Docs-Console-orange?style=flat-square)](https://docs.ararahq.com/)
-  [![Twitter/X](https://img.shields.io/twitter/follow/ararahq?style=social)](https://x.com/ararahq)
-</div>
-
----
-
-## 🚀 Nossos SDKs Oficiais (Open-Source)
-Nós construímos para desenvolvedores. Integre o WhatsApp e outros canais na sua stack em minutos.
-
-* 🟢 **Node.js:** [`ararahq/ararahq-node`](https://github.com/ararahq/arara-node-sdk)
-* 🐘 **PHP:** [`ararahq/ararahq-php`](https://github.com/ararahq/arara-php-sdk)
-* ☕ **Java:** [`ararahq/ararahq-java`](https://github.com/ararahq/arara-java-sdk)
-* 🐍 **Python:** [`ararahq/ararahq-python`](https://github.com/ararahq/arara-python-sdk)
+<p align="center">
+  <a href="https://ararahq.com">Website</a> &bull;
+  <a href="https://docs.ararahq.com">Docs</a> &bull;
+  <a href="https://docs.ararahq.com/quickstart">Quickstart</a> &bull;
+  <a href="https://x.com/araaborern">Twitter</a>
+</p>
 
 ---
 
-## 💰 Programa de Bounty: Construa um SDK e ganhe R$ 50!
-Sua linguagem favorita (Go, C#, Ruby, Rust) não está na lista acima? **Crie você mesmo!**
+### What is Arara?
 
-Nós estamos pagando **R$ 50,00 em créditos na Wallet da AraraHQ** para qualquer desenvolvedor que criar um SDK não oficial, abrir um Pull Request e for aprovado pelo nosso time de engenharia.
-* **Como participar:** Leia nosso [Guia de Contribuição](https://docs.ararahq.com/sdks) e abra uma Issue com a tag `sdk-bounty`.
+Arara is the **developer-first WhatsApp API** for Latin America. Integrate in 5 minutes. Send templates, campaigns, and build conversational flows — all through a simple, clean API.
+
+```typescript
+import { NodeSDK } from '@ararahq/sdk';
+
+const arara = new NodeSDK({ apiKey: 'ara_live_...' });
+
+await arara.messages.send({
+  receiver: 'whatsapp:+5511999999999',
+  templateName: 'order_confirmation',
+  variables: ['João', '#12345']
+});
+```
+
+### Ecosystem
+
+| Project | Description |
+|---------|-------------|
+| **[arara-node-sdk](https://github.com/ararahq/arara-node-sdk)** | Official Node.js / TypeScript SDK |
+| **[arara-python-sdk](https://github.com/ararahq/arara-python-sdk)** | Official Python SDK (sync + async) |
+| **[arara-java-sdk](https://github.com/ararahq/arara-java-sdk)** | Official Java SDK |
+| **[arara-php-sdk](https://github.com/ararahq/arara-php-sdk)** | Official PHP SDK |
+| **[arara-cli](https://github.com/ararahq/arara-cli)** | Command-line interface (Go) |
+| **[ararahq-mcp](https://github.com/ararahq/ararahq-mcp)** | MCP Server — plug Arara into Claude, Cursor, and AI agents |
+| **[send-whatsapp-action](https://github.com/ararahq/send-whatsapp-action)** | GitHub Action for WhatsApp notifications |
+| **[arara-vscode-theme](https://github.com/ararahq/arara-vscode-theme)** | VS Code color theme |
+| **[docs](https://docs.ararahq.com)** | API documentation |
+
+### Get Started
+
+```bash
+# Install the SDK
+npm install @ararahq/sdk
+
+# Or use the CLI
+brew install ararahq/tap/arara
+arara login
+arara send --to +5511999999999 --template hello_world
+```
+
+### Built for Developers
+
+- **5 minute integration** — validated by real customers, not marketing
+- **4 SDKs** — Node.js, Python, Java, PHP
+- **CLI with TUI** — interactive terminal dashboard
+- **MCP Server** — AI agents send WhatsApp natively
+- **Webhooks** — real-time delivery status and inbound messages
+- **Sandbox mode** — test with `ara_test_` keys before going live
 
 ---
 
-## 🤝 Quer contribuir?
-Nós amamos a comunidade Open Source. Se você quer ajudar a melhorar nossos SDKs existentes, procure pelas issues com as tags:
-- 🏷️ `good first issue` (Perfeito para sua primeira contribuição)
-- 🏷️ `help wanted` (Para desafios mais complexos)
-
-<div align="center">
-  <sub>Construído com 🖤 por desenvolvedores, para desenvolvedores.</sub>
-</div>
+<p align="center">
+  <sub>Built in Brazil, for Latin America.</sub>
+</p>
