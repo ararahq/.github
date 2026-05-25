@@ -41,7 +41,7 @@ await arara.messages.send({
 | **[arara-python-sdk](https://github.com/ararahq/arara-python-sdk)** | Official Python SDK (sync + async) |
 | **[arara-java-sdk](https://github.com/ararahq/arara-java-sdk)** | Official Java SDK |
 | **[arara-php-sdk](https://github.com/ararahq/arara-php-sdk)** | Official PHP SDK |
-| **[arara-cli](https://github.com/ararahq/arara-cli)** | Command-line interface (Go) |
+| **[arara-cli](https://github.com/ararahq/cli)** | Command-line interface (Go) |
 | **[ararahq-mcp](https://github.com/ararahq/ararahq-mcp)** | MCP Server — plug Arara into Claude, Cursor, and AI agents |
 | **[send-whatsapp-action](https://github.com/ararahq/send-whatsapp-action)** | GitHub Action for WhatsApp notifications |
 | **[arara-vscode-theme](https://github.com/ararahq/arara-vscode-theme)** | VS Code color theme |
