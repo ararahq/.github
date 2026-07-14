@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://ararahq.com/logo-dark.png" alt="AraraHQ" width="200">
+  <img src="https://ararahq.com/brand/hero-bg-2.png" alt="AraraHQ" width="200">
   <br>
   AraraHQ
   <br>
