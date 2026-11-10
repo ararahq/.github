@@ -1,10 +1,6 @@
-<h1 align="center">
-  <br>
-  <img src="https://ararahq.com/brand/hero-bg-2.png" alt="AraraHQ" width="200">
-  <br>
-  AraraHQ
-  <br>
-</h1>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ararahq/.github/main/profile/ararahq-banner.jpg" alt="AraraHQ" width="100%">
+</p>
 
 <h3 align="center">Communication infrastructure for Latin America</h3>
 
@@ -12,7 +8,7 @@
   <a href="https://ararahq.com">Website</a> &bull;
   <a href="https://docs.ararahq.com">Docs</a> &bull;
   <a href="https://docs.ararahq.com/quickstart">Quickstart</a> &bull;
-  <a href="https://x.com/araaborern">Twitter</a>
+  <a href="https://x.com/ararahq">X</a>
 </p>
 
 ---
