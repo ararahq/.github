@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/ararahq/.github/main/profile/ararahq-banner.jpg" alt="AraraHQ" width="100%">
 </p>
 
-<h3 align="center">Communication infrastructure for Latin America</h3>
+<h3 align="center">WhatsApp for Brazilian companies</h3>
 
 <p align="center">
   <a href="https://ararahq.com">Website</a> &bull;
@@ -13,9 +13,13 @@
 
 ---
 
-### What is Arara?
+### What is AraraHQ?
 
-Arara is the **developer-first WhatsApp API** for Latin America. Integrate in 5 minutes. Send templates, campaigns, and build conversational flows — all through a simple, clean API.
+AraraHQ: WhatsApp for Brazilian companies. Team inbox with AI, campaigns and systems connected through the API.
+
+A AraraHQ cuida do WhatsApp de empresas brasileiras: atendimento em equipe com IA, campanhas para a base e sistemas conectados pela API, do número da própria empresa, dimensionados com um especialista. Opera sobre a WhatsApp Business Platform da Meta, com contrato em português, nota fiscal no CNPJ e cobrança em real.
+
+The repositories below are the SDKs and tools for the AraraHQ API.
 
 ```typescript
 import { NodeSDK } from '@ararahq/sdk';
@@ -71,17 +75,15 @@ arara login
 arara send --to +5511999999999 --template hello_world
 ```
 
-### Built for Developers
+### For developers
 
-- **5 minute integration** — validated by real customers, not marketing
 - **6 SDKs** — Node.js, Python, Java, PHP, Go, Ruby
 - **CLI with TUI** — interactive terminal dashboard
 - **MCP Server** — AI agents send WhatsApp natively
 - **Webhooks** — real-time delivery status and inbound messages
-- **Sandbox mode** — test with `ara_test_` keys before going live
 
 ---
 
 <p align="center">
-  <sub>Built in Brazil, for Latin America.</sub>
+  <sub>Built in Brazil.</sub>
 </p>
